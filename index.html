@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 1000px;
+            height: 910px;
+            background-color: bisque;
+            margin: 0 auto;
+            /* 가운데 정렬 */
+            /* 화면의 너비를 정할때 전체 화면은 100% 기준 사이즈가 있다면 1000px
+            너비는 공통적으로 100%가 인식이 되는데, 높이는 작업방법에 따라 길이가 다 달라지기 때문에
+            % 인식이 안됨... 강제로 100vh를 하면 한 화면을 인식함 */
+        }
+
+        .title1 {
+            width: 80px;
+            height: 150px;
+            background-color: blueviolet;
+            border-radius: 0 0 20px 20px;
+            margin: 0 auto;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+            line-height: 220px;
+        }
+
+        .title2 {
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: bisque;
+            font-size: 35px;
+            color: white;
+            margin-top: 60px;
+        }
+
+        .title3 {
+            width: 600px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: wheat;
+            font-size: 17px;
+            margin-top: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #333;
+        }
+
+        .sub1 {
+            width: 80px;
+            height: 80px;
+            font-size: 50px;
+            text-align: center;
+            background-color: #333;
+            float: left;
+            margin-top: 60px;
+        }
+
+        .sub2 {
+            width: 920px;
+            height: 80px;
+            background-color: sienna;
+            border-radius: 20px;
+            font-size: 30px;
+            line-height: 80px;
+            color: white;
+            text-indent: 20px;
+            /*텍스트들여쓰기*/
+            float: left;
+            margin-top: 60px;
+        }
+
+        .sub3 {
+            font-size: 14px;
+            color: #333;
+            text-align: justify;
+            background-color: salmon;
+            clear: both;
+            height: 500px;
+            text-indent: 20px;
+            padding: 30px;
+            margin-top: 20px;
+            line-height: 25px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="title1">01</div>
+        <div class="title2">파이썬 기반의 머신러닝과<br> 생태계 이해</div>
+        <div class="title3">우리나라를 대표하는 나무인 소나무가 설악산에서 절반 가까이 고사(枯死·나무나 풀이 말라 죽음) 위기인 것으로 나타났다.<br> 20일 국립공원공단 '국립공원 소나무
+            고사 실태 조사 연구'에 따르면 연구진은 설악산, 오대산, 치악산, 태백산, 소백산 등 5개 국립공원에서 위성 영상 및 항공 사진, 공원 순찰을 통해 소나무림 조사를 했다.</div>
+        <div class="sub1">01</div>
+        <div class="sub2">머신러닝의 개념</div>
+        <div class="sub3">연구진이 해발고도와 사면 방향, 경사도, 지형습윤지수, 지형위치지수 등의 변수 모형을 적용해 분석한 결과 설악산 26개 지점, 오대산 192개 지점, 치악산 33개
+            지점, 태백산은 37개 지점, 소백산은 79개 지점이 고사 예측 지점으로 나타났다.<br>
+            설악산의 경우 전체 소나무림 면적 중 52.2%에 해당하는 잔존 예측 지역, 47.8%는 고사 예측 지역으로 분석됐다.<br>
+            다른 국립공원의 경우 치악산 40.2%, 태백산 38.5%, 소백산 23.5%, 오대산 22.2%가 소나무림 고사 예측 지역으로 꼽혔다.<br>
+            소나무 잔존림 예측 분포에서 해발고도가 가장 큰 영향을 미쳤고 다음으로 지형 유형 변수, 경사향 변수 순이었다. 평균 해수면을 기준으로 특정 지점의 높이를 나타내는 해발고도는 지구 온난화 등의
+            영향으로 해수면이 높아지면 낮아지게 되는데, 해수면과 해발고도의 변화가 소나무 등 생태계에 영향을 미친다는 의미다.<br>
+            소나무는 단일 산림 수종으로는 한반도 내에서 가장 넓은 면적을 차지하고 있으며 우리나라 전체 산림 6만2981㎦ 중 소나무림 면적은 36.9%인 2만3240㎦다.<br>
+            단 2000년대 이후 산림 병해충, 산불, 기후변화 및 인위적 요인 등으로 소나무 분포 면적은 감소하고 있고 지구온난화로 인한 아열대 기후 북상이 현존하는 소나무 자생지 환경을 변화시켜 소나무
+            분포 지역을 축소시킬 수 있다는 주장도 제기되고 있다.<br>
+            연구진은 "국립공원의 경우 국가 보호지역으로 생물다양성이 풍부하고 멸종위기종 및 고유 야생 생물이 서식하는 등 생태적 보전 가치가 높은 점을 고려하면 소나무 고사와 같은 생태계 영향을 미치는
+            요인을 빠르게 탐색해 문제 해결 방안을 도출할 필요가 있다"고 했다.
+        </div>
+    </div>
+</body>
+
+</html>
